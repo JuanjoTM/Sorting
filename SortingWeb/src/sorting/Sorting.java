@@ -12,6 +12,7 @@
 package sorting;
 
 public class Sorting {
+    
     public static void bubbleSort(Comparable x) {
         int n = ((Numeros)x).getSize();
         for (int pass=1; pass < n; pass++) {  // count how many times
@@ -43,7 +44,28 @@ public class Sorting {
          ((Numeros)x).getLista()[position] = (int) key;
       }
    }
+   
    public static void mergeSort(Comparable x){
+       int[] lista = ((Numeros)x).getLista();
+       int[] temp = lista;
+       int low = 0;
+       int middle = (int)(lista.length/2);
+       int high = lista.length;
        
+       int ri = low;
+       int ti = low;
+       int di = middle;
+       while(ti<middle && di<=high){
+           if(lista[di]<temp[ti]){
+               lista[ri++] = lista[di++];
+           }
+           else{
+               lista[ri++] = temp[ti++];
+           }
+       }
+       while(ti<middle){
+           lista[ri++] = temp[ti++];
+       }
+       ((Numeros)x).setLista(lista);
    }
 }
