@@ -2,10 +2,6 @@
   Algoritmos y Estructura de Datos
   Autores:
   Juan Jose Tzun 	Carnet: 13017
-import java.util.Random;
-
-public class Principal{
-    public static void main(String[] args){
   Carlos Cordero        Carnet: 13152
   Luis Tello            Carnet: 13161
   Tomas Garcia          Carnet: 13019
