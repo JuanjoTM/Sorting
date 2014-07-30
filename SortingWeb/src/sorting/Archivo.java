@@ -2,6 +2,10 @@
   Algoritmos y Estructura de Datos
   Autores:
   Juan Jose Tzun 	Carnet: 13017
+  Carlos Cordero        Carnet: 13152
+  Luis Tello            Carnet: 13161
+  Tomas Garcia          Carnet: 13019
+  Sergio Mendez         Carnet: 13452
   Fecha: 24/07/2014
 */
 
