@@ -50,7 +50,7 @@ public class Sorting {
        int[] temp = lista;
        int low = 0;
        int middle = (int)(lista.length/2);
-       int high = lista.length;
+       int high = lista.length-1;
        
        int ri = low;
        int ti = low;
@@ -68,4 +68,5 @@ public class Sorting {
        }
        ((Numeros)x).setLista(lista);
    }
+   
 }
